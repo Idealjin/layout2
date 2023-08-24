@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+<body>
+<div class="layout">
+    <div class="main-layout">
+        <section class="left-section"></section>
+        <section class="section">
+            <!--    header start-->
+            <header class="header">
+                <div class="logo">logo</div>
+                <div class="gnb"></div>
+                <div class="menu">
+                    <div class="menu-line"></div>
+                    <div class="menu-line"></div>
+                    <div class="menu-line"></div>
+                </div>
+            </header>
+            <!--    header end-->
+            <div class="main">
+                <div class="home-container">
+                    <div class="step-box">
+                        <div class="title">title</div>
+                        <ul class="icon-list">
+                            <li>
+                                <div><i class="fa-solid fa-phone-volume"></i></div>
+                                <div class="icon-text">상담 신청</div>
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-angle-right" style="color: #989aa0"></i>
+                            </li>
+                            <li>
+                                <div>
+                                    <i class="fa-solid fa-person-walking"></i>
+                                </div>
+                                <div class="icon-text">무료 현장 방문</div>
+                            </li>
+                            <li><i class="fa-solid fa-angle-right" style="color: #989aa0"></i></li>
+                            <li>
+                                <div>
+                                    <i class="fa-solid fa-file-image"></i>
+                                </div>
+                                <div class="icon-text">견적 디자인 제안</div>
+                            </li>
+                            <li><i class="fa-solid fa-angle-right" style="color: #989aa0"></i></li>
+                            <li>
+                                <div>
+                                    <i class="fa-solid fa-handshake"></i>
+                                </div>
+                                <div class="icon-text">계약 진행</div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="board-box">
+                        <div class="title">board title</div>
+                        <ul class="article-list">
+                            <li></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="photo-container"></div>
+            </div>
+        </section>
+        <section class="tel-section">
+            <div class="tel-box">
+                <h2> 공사문의 </h2>
+                    <input type="text" id="side_cname" name="side_cname" class="form-control mb-3" placeholder="이름(업체명)" required="">
+                    <input type="text" id="side_phone" name="side_phone" class="form-control mb-3" placeholder="연락처" required="">
+                    <input type="text" id="side_sectors" name="side_sectors" class="form-control mb-3" placeholder="계획하는 업종" required="">
+                <input type="text" id="side_carea" name="side_carea" class="form-control mb-3" placeholder="평수" required="">
+                <input type="text" id="side_clocal" name="side_clocal" class="form-control mb-3" placeholder="지역(자유롭게 입력)" required="">
+                <input type="text" id="side_cday" name="side_cday" class="form-control mb-3" placeholder="공사예정일">
+                <textarea type="text" id="side_ccomment" name="side_ccomment" class="form-control mb-3" placeholder="궁금한 내용을 입력하세요." style="height:100px" required=""></textarea>
+                <div class="custom-control custom-checkbox mb-3">
+                    <input type="checkbox" id="side_cprivacy" name="side_cprivacy" class="custom-control-input" required="">
+                    <label class="custom-control-label" for="side_cprivacy"><small>개인정보수집 및 서비스이용약관 동의</small></label> <span data-toggle="modal" data-target="#privacyModal" class="text-primary privacy_text"><small>(보기)</small></span>
+                    <input type="hidden" name="_form_name" value="form916_side_121165188107">
+                </div>
+                <!--
+                <input type="hidden" name="_form_name" value="form916_side_121165188107">
+                <input type="hidden" name="_ip" value="121.165.188.107">
+                <input type="hidden" name="action" value="form916_side_request">
+                <input type="hidden" id="form916_side_request_nonce_field" name="form916_side_request_nonce_field" value="f346386af6">
+                <input type="hidden" name="_wp_http_referer" value="/">
+                -->
+                <button type="submit" id="form916_side_121165188107_submit" name="form916_side_121165188107_submit" class="btn btn-primary btn-block mb-3">문의하기</button>
+
+            </div>
+        </section>
+    </div>
+
+
+<!--    footer start-->
+<footer class="footer"></footer>
+<!--        footer end-->
+
+
+</div>
+
+
+<script src="https://kit.fontawesome.com/2611be0417.js" crossorigin="anonymous"></script>
+
+</body>
+</html>
