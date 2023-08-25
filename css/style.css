@@ -235,8 +235,11 @@ h2{
 }
 
 .photo-frame img{
+    transition: 0.5s;
+}
 
-
+.photo-frame img:hover{
+    transform: scale(110%);
 }
 
 .post-sub{
