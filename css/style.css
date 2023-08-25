@@ -24,7 +24,6 @@ h2{
 .main-layout{
     width: 99vw;
     display: flex;
-    border: 3px solid crimson;
 }
 
 .left-section{
@@ -43,22 +42,39 @@ h2{
 .header{
     width: 100%;
     height: 80px;
-    background: gray;
     display: flex;
     justify-content: space-between;
 }
 
 .header .logo{
+    flex: 1;
     width: 100px;
     height: 100%;
-    background: red;
+    text-align: center;
+}
+
+.header .logo img{
+    width: 100px;
+    height: 80px;
+}
+
+.header .gnb{
+    flex: 8;
+    height: 80px;
+    position: relative;
+}
+
+.header .gnb span{
+    position: absolute;
+    top: 40%;
+    right: 30px;
     text-align: center;
 }
 
 .header .menu{
+    flex: 1;
     width: 50px;
     height: 100%;
-    background: red;
     position: relative;
 }
 
@@ -145,6 +161,7 @@ h2{
     font-style: oblique;
     text-align: center;
     padding-top: 15px;
+    padding-bottom: 10px;
     /*background: rgba(182,211,216,0.7);*/
 }
 
@@ -183,5 +200,55 @@ h2{
 
 .main .photo-container{
     height: 100vh;
-    background: lime;
+    display: flex;
+}
+
+.photo-box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0;
+    margin: 0;
+}
+
+.photo-frame{
+    width: 580px;
+    height: 410px;
+    overflow: hidden;
+    border-radius: 30px;
+}
+
+#post-1{
+    width: 470px;
+}
+
+#post-2{
+    width: 690px;
+}
+
+#post-3{
+    width: 690px;
+}
+
+#post-4{
+    width: 470px;
+}
+
+.photo-frame img{
+
+
+}
+
+.post-sub{
+    position: relative;
+}
+
+.post-sub-text{
+    width: 100%;
+    position: absolute;
+    bottom: 3px;
+    background: linear-gradient(to bottom,rgba(0,0,0,.5) 0,rgba(0,0,0,0) 100%);
+    padding: 10px 10px;
+    color: white;
+    text-align: center;
 }
