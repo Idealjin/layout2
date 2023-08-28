@@ -220,21 +220,27 @@ h2{
 
 #post-1{
     width: 470px;
+    height: 410px;
 }
 
 #post-2{
     width: 690px;
+    height: 410px;
 }
 
 #post-3{
     width: 690px;
+    height: 410px;
 }
 
 #post-4{
     width: 470px;
+    height: 410px;
 }
 
 .photo-frame img{
+    width: 100%;
+    height: 100%;
     transition: 0.5s;
 }
 
@@ -350,6 +356,7 @@ h2{
 
     .photo-box{
         width: 100%;
+        justify-content: space-evenly;
     }
 
     .photo-frame{
@@ -362,6 +369,26 @@ h2{
     .photo-frame img{
         width: 100%;
         height: 100%;
+    }
+
+    #post-1{
+        width: 100%;
+        height: 200px;
+    }
+
+    #post-2{
+        width: 100%;
+        height: 200px;
+    }
+
+    #post-3{
+        width: 100%;
+        height: 200px;
+    }
+
+    #post-4{
+        width: 100%;
+        height: 200px;
     }
 
     .post-sub-text{
