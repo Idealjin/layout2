@@ -356,11 +356,16 @@ h2{
         width: 95vw;
         height: 200px;
         overflow: hidden;
+        margin-bottom: 10px;
     }
 
     .photo-frame img{
         width: 100%;
         height: 100%;
+    }
+
+    .post-sub-text{
+        font-size: 14px;
     }
 
 }
