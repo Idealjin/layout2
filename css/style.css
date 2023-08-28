@@ -212,8 +212,7 @@ h2{
 }
 
 .photo-frame{
-    width: 580px;
-    height: 410px;
+    width: 100%;
     overflow: hidden;
     border-radius: 30px;
 }
