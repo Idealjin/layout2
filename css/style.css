@@ -21,9 +21,64 @@ h2{
     font-size: 17px;
 }
 
+.no-scroll{
+    overflow: hidden;
+}
+
 .main-layout{
     width: 99vw;
     display: flex;
+}
+
+.hiddenMenu{
+    transition: 0.5s;
+}
+
+.menu-text{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 30%;
+    left: 45%;
+}
+
+.menu-text a{
+    color: white;
+    font-size: 3em;
+    cursor: pointer;
+    letter-spacing: 3px;
+    text-decoration: none;
+    line-height: 1.5em;
+}
+
+.close{
+    width: 30px;
+    height: 30px;
+    color: white;
+    position: absolute;
+    top: 20%;
+    right: 40%;
+    font-size: 2em;
+    cursor: pointer;
+}
+
+.close img{
+    width: 100%;
+    height: 30px;
+    color: white;
+}
+
+
+
+.showMenu{
+    width: 100vw;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: white;
+    background: rgba(0, 0, 0, 0.8);
+    z-index: 99;
 }
 
 .left-section{
@@ -78,23 +133,33 @@ h2{
     position: relative;
 }
 
-.menu .menu-line{
+.line-box{
     width: 25px;
-    height: 3px;
-    border-bottom: black;
-    background: black;
-    position: absolute;
-    top: 50%;
-    transform: translate(15px, -50%);
+    height: 16px;
+    position: relative;
+    top: 40%;
+    left: 40%;
     cursor: pointer;
 }
 
+
+
+.menu .menu-line{
+    width: 100%;
+    height: 2px;
+    border-bottom: black;
+    background: black;
+    position: absolute;
+    top: 0;
+    transform: translate(0, -50%);
+}
+
 .menu-line:nth-child(1){
-    top: 40%;
+    top: 50%;
 }
 
 .menu-line:nth-child(2){
-    top: 60%;
+    top: 100%;
 }
 
 /*          header end      */
@@ -117,6 +182,11 @@ h2{
     flex-direction: column;
     text-align: center;
 }
+
+.tel-section .tel-box h2{
+    margin-bottom: 10px;
+}
+
     /*텍스트박스*/
 .form-control{
     width: 90%;
@@ -291,7 +361,6 @@ h2{
     }
 
     .header .menu{
-        /*border: 1px solid crimson;*/
     }
 
     .menu .menu-line{

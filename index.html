@@ -7,10 +7,23 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="css/style.css">
     <title>Interior Sample</title>
+    <script src="js/main.js"></script>
 </head>
 <body>
-<div class="layout">
+<div class="layout" >
     <div class="main-layout">
+        <div class="hiddenMenu" id="menu">
+            <div class="close" id="close">
+                <a href="#"><img src="image/close-white.png" alt=""></a>
+            </div>
+            <div class="menu-text">
+                <span><a href="#">menu 1</a></span>
+                <span><a href="#">menu 2</a></span>
+                <span><a href="#">menu 3</a></span>
+                <span><a href="#">menu 4</a></span>
+                <span><a href="#">menu 5</a></span>
+            </div>
+        </div>
         <section class="left-section"></section>
         <section class="section">
             <!--    header start-->
@@ -21,10 +34,12 @@
                 <div class="gnb">
                     <span>문의 번호 : 01012345678</span>
                 </div>
-                <div class="menu">
-                    <div class="menu-line"></div>
-                    <div class="menu-line"></div>
-                    <div class="menu-line"></div>
+                <div class="menu" id="menuButton">
+                    <div class="line-box">
+                        <div class="menu-line"></div>
+                        <div class="menu-line"></div>
+                        <div class="menu-line"></div>
+                    </div>
                 </div>
             </header>
             <!--    header end-->
@@ -132,14 +147,18 @@
     </div>
 
 <!--    footer start-->
-<footer class="footer"></footer>
+<footer class="footer">
+    <div class="footer-box">
+        <span></span>
+    </div>
+</footer>
 <!--        footer end-->
 
 
 </div>
-
-
 <script src="https://kit.fontawesome.com/2611be0417.js" crossorigin="anonymous"></script>
+<script type="text/javascript" src="js/main.js"></script>
+
 
 </body>
 </html>
